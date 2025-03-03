@@ -4,18 +4,20 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace zadanie_3
+namespace zadanie_4
 {
     class Program
     {
         static void Main(string[] args)
         {
-            int a;
+            double a, b;
             Console.Write("Podaj a=");
             a = Convert.ToInt32(Console.ReadLine());
-            Console.Write("a^3={0}", a * a * a);
+            Console.Write("Podaj b=");
+            b = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Pole={0}", a * b);
+            Console.WriteLine("Obwód={0}", 2 * a + 2 * b);
             Console.ReadKey(true); //pauza
-       
         }
     }
 }
