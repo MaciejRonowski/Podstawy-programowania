@@ -16,8 +16,11 @@ namespace zadanie_5
             Console.WriteLine("Podaj h=");
             h = Convert.ToDouble(Console.ReadLine());
             l = Math.Sqrt(r * r + h * h); //tworząca
-            
-
+            V = 1.0 / 3 * Math.PI * r * r * h;
+            Pc = Math.PI * r * r + Math.PI * r * l;
+            Console.WriteLine("V={0}", V);
+            Console.WriteLine("Pc={0}", Pc);
+            Console.ReadKey(true); //pauza
         }
     }
 }
