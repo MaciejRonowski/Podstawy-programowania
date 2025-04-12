@@ -21,7 +21,7 @@ namespace zadanie_8_warunki
             b = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Podaj trzeci odcinek:");
             c = Convert.ToInt32(Console.ReadLine());
-            if ((a+b>=c)||(a+c<=b)||(b+c<=a))
+            if ((a+b>c)&& (c > a) && (c > b) || (a+c>b) && (b > c) && (b > a) || (b+c>a) && (a > b) && (a > c))
                 Console.WriteLine("Z tych odcinków da się zbudować trójkąt.");
             else Console.WriteLine("Z tych odcinków nie da się zbudować trójkąta!");
             Console.ReadKey(true);
