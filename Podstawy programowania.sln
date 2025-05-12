@@ -1,9 +1,27 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.13.35818.85 d17.13
+VisualStudioVersion = 17.13.35818.85
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "zadanie 1 rekurencja", "zadanie 1 rekurencja\zadanie 1 rekurencja.csproj", "{FBEEE4DD-CB7C-4411-9D2B-A91614D43A05}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "zadanie 2 rekurencja", "zadanie 2 rekurencja\zadanie 2 rekurencja.csproj", "{8BFA7CF8-4C7F-45DF-953C-11D7B3EB56AA}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FBEEE4DD-CB7C-4411-9D2B-A91614D43A05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBEEE4DD-CB7C-4411-9D2B-A91614D43A05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBEEE4DD-CB7C-4411-9D2B-A91614D43A05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBEEE4DD-CB7C-4411-9D2B-A91614D43A05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BFA7CF8-4C7F-45DF-953C-11D7B3EB56AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BFA7CF8-4C7F-45DF-953C-11D7B3EB56AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BFA7CF8-4C7F-45DF-953C-11D7B3EB56AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BFA7CF8-4C7F-45DF-953C-11D7B3EB56AA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
